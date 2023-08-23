@@ -5,7 +5,7 @@ import numpy as np
 
 #user_input = input("User: ")
 
-def search_db(user_input)
+def search_db(user_input):
     # data prep for search function: read db embeddings as np
     db_ebds_csv_path = 'db/exhibit-info-ebds.csv'
     db_ebds_np = torch.FloatTensor(pd.read_csv(db_ebds_csv_path, header=None).to_numpy())
