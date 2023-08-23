@@ -9,7 +9,7 @@ ebd_model = SentenceTransformer('all-MiniLM-L6-v2')
 db_texts_csv_path = 'db/exhibit-info.csv'
 db_ebds_csv_path = 'db/exhibit-info-ebds.csv' # path to save embedded texts from db
 db_texts = pd.read_csv(db_texts_csv_path, header=None, squeeze=True, encoding='iso-8859-1')
-db_ebds = [ebd_model.encode(i) for i in db_texts] # convert_to_tensor=True pytorch tensor containing embeddings
+db_ebds = [ebd_model.encode(i) for i in db_texts] # encode()->class 'numpy.ndarray'.convert_to_tensor=True pytorch tensor containing embeddings
 db_ebds_df = pd.DataFrame(db_ebds)
-db_ebds_df.to_csv(db_ebds_csv_path, index=False, header=False)
-print("......texts in database embedded and saved successfully.")
+db_ebds_df.to_csv(db_ebds_csv_path, index=False, header=False, float_format='%.20f')
+print("\n...texts in database were embedded and saved successfully.")

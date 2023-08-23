@@ -1,23 +1,27 @@
 ﻿from sentence_transformers import SentenceTransformer, util
 import torch
 import pandas as pd
+import numpy as np
 
-# user input -> input converts into ebds
-user_input = input("User: ")
-ebd_model = SentenceTransformer('all-MiniLM-L6-v2') 
-user_input_ebds = [ebd_model.encode(user_input)] # convert_to_tensor=True pytorch tensor containing embeddings
-user_input_ebds_df = torch.FloatTensor(pd.DataFrame(user_input_ebds))
+#user_input = input("User: ")
 
-# read db embeddings as df
-db_ebds_csv_path = 'db/exhibit-info-ebds.csv'
-db_ebds_df = torch.FloatTensor(pd.read_csv(db_ebds_csv_path))
+def search_db(user_input)
+    # data prep for search function: read db embeddings as np
+    db_ebds_csv_path = 'db/exhibit-info-ebds.csv'
+    db_ebds_np = torch.FloatTensor(pd.read_csv(db_ebds_csv_path, header=None).to_numpy())
 
+    # data prep for search function: user input converts into ebds
+    ebd_model = SentenceTransformer('all-MiniLM-L6-v2') 
+    user_input_ebds_np = torch.FloatTensor(ebd_model.encode(user_input)) # np class as output object. todo to try for speed: convert_to_tensor=True pytorch tensor containing embeddings
 
-# ebds asymmetric semantic search against database, model: msmarco-distilroberta-base-v3
-hits = util.semantic_search(user_input_ebds_df, db_ebds_df, top_k=1)
-# todo question: doable to compare two DataFrame? What should be the format considering efficiency?
-print(hits)
+    # ebds semantic search against database
+    # todo model is not accurate. Possible reasons 1) two many sentences; 2) wrong model? -> to update into asymmetric model: msmarco-distilroberta-base-v3. Seems like not authorized?
+    hits = util.semantic_search(user_input_ebds_np, db_ebds_np, top_k=2)
 
-# pull database's information as text
-# text + user inputs as inputs of calling LLM APIs
+    # pull database's information as text
+    db_texts_csv_path = 'db/exhibit-info.csv'
+    db_texts = pd.read_csv(db_texts_csv_path, header=None, encoding='iso-8859-1')
+    found_db_texts = db_texts.iloc[[hits[0][i]['corpus_id'] for i in range(len(hits[0]))]]
+    return found_db_texts
+
 
