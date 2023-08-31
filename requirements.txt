@@ -1,3 +1,7 @@
+sentence_transformers
 openai
 dotenv
 python-dotenv
+torch
+pandas
+numpy
