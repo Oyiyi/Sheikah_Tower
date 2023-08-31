@@ -6,7 +6,7 @@ class Conversation:
     def __init__(self):
         # Historical message storage for the entire conversation todo can't keep adding messages, but how to fix it? Maybe summarize every 5 messages?
         # Main prompt here
-        self.messages = [{"role": "system", "content": "Act as a tour guide in an Egyptian museum. Your name is Alice."}]
+        self.messages = [{"role": "system", "content": "Act as a tour guide in an Egyptian museum. Your name is Alice."},{"role": "assistant", "content": "Hi I'm Alice, your tour guide today! Ready to explore?"}]
         print("\n\nVIP Guide: Hi I'm Alice, your tour guide today! Ready to explore?'")
 
     def call_api(self):
