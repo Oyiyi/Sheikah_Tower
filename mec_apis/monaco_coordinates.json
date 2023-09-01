@@ -1,0 +1,34 @@
+{
+    "Prince's Palace of Monaco": {
+        "latitude": 43.730785,
+        "longitude": 7.420383
+    },
+    "Oceanographic Museum of Monaco": { 
+        "latitude": 43.727594,
+        "longitude": 7.419973
+    },
+    "Monte Carlo Casino": {
+        "latitude": 43.739648,
+        "longitude": 7.427329
+    },
+    "Monaco-Ville": {
+        "latitude": 43.728593,
+        "longitude": 7.420988
+    },
+    "Port Hercules": {
+        "latitude": 43.731420,
+        "longitude": 7.423016
+    },
+    "Cathedral of Our Lady Immaculate": {
+        "latitude": 43.733836,
+        "longitude": 7.420948
+    },
+    "Saint-Martin Gardens": {
+        "latitude": 43.737030,
+        "longitude": 7.422617
+    },
+    "Japanese Garden in Monaco": {
+        "latitude": 43.74248115,
+        "longitude": 7.430971286907864
+    }
+}
