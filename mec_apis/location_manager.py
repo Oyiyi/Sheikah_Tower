@@ -1,5 +1,8 @@
 """
 location API manager
+Main Zone for demo:zone02 (many options for historical tourism spots, food, mesuems) 
+Demo for communication across zones (hospital in zone01)
+
 Step 1: once user initiate the conversation, retrieve live location. Refresh every [1] min (or area enter subscription), saved in json file as log events data
 Step 2: retrieve the surrounding locations within [5] meters of user coordinates, saved in [?]
 Step 3: based on the goal of the conversation / chat history, gather {data} from these locations, saved in [?].
