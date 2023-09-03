@@ -2,6 +2,8 @@
 import openai
 #openai.api_key = OPENAI_API_KEY
 
+# todo Don't start as the museum guide as there are use cases outside of the museum
+
 class Conversation:
     def __init__(self):
         # Historical message storage for the entire conversation todo can't keep adding messages, but how to fix it? Maybe summarize every 5 messages?
