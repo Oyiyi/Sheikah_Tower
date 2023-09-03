@@ -3,8 +3,6 @@ import torch
 import pandas as pd
 import numpy as np
 
-#user_input = input("User: ")
-
 def search_db(user_input, db_ebds_csv_path, db_text_csv_path): # todo add path here so that it can search diff db
     # data prep for search function: read db embeddings as np
     db_ebds_csv_path = db_ebds_csv_path

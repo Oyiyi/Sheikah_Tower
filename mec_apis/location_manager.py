@@ -68,5 +68,10 @@ class LocationManager:
         return event
         # time.sleep(2) # in second; todo think about the refresh frequency. Now refresh the nearby location by response
         # todo interestRealm. Thinking about the data saved under the zone - access point. Maybe shorten the list into one zone so that the calculation is easier
+        """ Sample event:
+        {'user_live_coor': {'latitude': 43.74216, 'longitude': 7.430558}, 
+        'time': 1693770672, 
+        'nearby_locations within 500': ['Monte Carlo Casino', 'Japanese Garden in Monaco']}
+        """
 
 # user_IP_address = '10.100.0.4'
