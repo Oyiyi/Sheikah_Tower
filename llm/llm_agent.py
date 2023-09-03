@@ -3,6 +3,7 @@ import openai
 #openai.api_key = OPENAI_API_KEY
 
 # todo Don't start as the museum guide as there are use cases outside of the museum
+# todo check the order of the flow. Also seems like the assistant repeats the same information. Level-of-freedom
 
 class Conversation:
     def __init__(self):
