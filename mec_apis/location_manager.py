@@ -10,33 +10,63 @@ Step 4: use the {data} to generate LLM response / translation
 Step 5: fine-tuning model locally every 24 hours
 """
 
-import requests, time, math, json
-from mec_location_api import fetch_user_coordinates, distance_calc
+import requests
+import time
+import math
+import json
+from mec_apis.mec_location_api import fetch_user_coordinates, distance_calc
 
+class LocationManager:
+    def __init__(self, user_IP_address, log_file_path, db_location_file_path):
+        self.db_location_file_path = db_location_file_path
+        self.locations = self._read_locations(self.db_location_file_path)
+        self.radius = 500
+        self.user_IP_address = user_IP_address
+        self.log_file_path = log_file_path
 
-class LocationReader:
-    def __init__(self, file_path):
-        self.file_path = file_path
-        self.locations = self._read_locations()
+    # read the locations and their coordinates from the db
+    def _read_locations(self, db_location_file_path):
+        with open(self.db_location_file_path, 'r') as location_json_file:
+            locations = json.load(location_json_file)
+        return locations
 
-# read the locations and their coordinates from the db
-locations_file_path = "monaco_coordinates.json" # db path
-with open(locations_file_path, 'r') as json_file:
-    locations = json.load(json_file)
+    def fetch_nearby_locations(self):
+        user_live_coor = fetch_user_coordinates(self.user_IP_address)
+        nearby_locations_list = []
 
-#user_IP_address = '10.100.0.4'
+        for location, coordinates in self.locations.items(): # key, values
+            distance = distance_calc(user_live_coor[0], user_live_coor[1], coordinates["latitude"], coordinates["longitude"])
+            """ A sample result
+            (43.746475, 7.433062, 1693767018)
+            2020.2393897489778
+            2348.1049487726063
+            887.9064613208305
+            2212.381710312174
+            1858.43488196901
+            1709.455407904061
+            1344.2731778778702
+            474.79232706685116
+            """
+            if distance < self.radius:
+                nearby_locations_list.append(location)
+                # prompt_nearby_locations = f"Now user is close to: {', '.join(nearby_locations_list)}"
+        
+        event = {
+            "user_live_coor": {
+                "latitude": float(user_live_coor[0]),
+                "longitude": float(user_live_coor[1])
+            },
+            "time": user_live_coor[2], 
+            f"nearby_locations within {self.radius}": nearby_locations_list
+        }
 
-def fetch_nearby_locations(user_IP_address):
-	#while True: # todo to update into if a conversation initiated by user
-	user_live_coor = fetch_user_coordinates(user_IP_address) # todo to save it in a log event file - LowP
+        # write above event info into user_event_log file
+        with open(self.log_file_path, 'a') as json_file:
+            json.dump(event, json_file)
+            json_file.write('\n')
 
-	for location, coordinates in locations.items(): # key, values
-		distance = distance_calc(user_live_coor[0], user_live_coor[1], coordinates["latitude"], coordinates["longitude"])
-		if distance < 100 # to define
-			nearby_locations_list = [] # todo think where to make it [] again
-			nearby_locations_list.append(location)
-			prompt_nearby_locations = f"Now user is close to: {', '.join(nearby_locations_list)}"
+        return event
+        # time.sleep(2) # in second; todo think about the refresh frequency. Now refresh the nearby location by response
+        # todo interestRealm. Thinking about the data saved under the zone - access point. Maybe shorten the list into one zone so that the calculation is easier
 
-	return prompt_nearby_locations
-	#time.sleep(2) # in second; todo maybe to refresh every 2 second. Now refresh the nearby location by response
-	# todo interestRealm. Thinking about the data saved under the zone - access point. Maybe shorten the list into one zone so that the calculation is easier
+# user_IP_address = '10.100.0.4'
