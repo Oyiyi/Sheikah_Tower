@@ -21,13 +21,19 @@ from ebd.ebd import text_to_ebds_csv
 # initiate a conversation
 convo = Conversation()
 
-while True:
-    user_input = input("\n\nUser: ")
-    # path 1: retrieve relevant information in db + user_input -> LLM
+def chat_api(user_input):
     found_db_texts = search_db(user_input, 'db/exhibit-info-ebds.csv', 'db/exhibit-info.csv')
     found_db_user_data = search_db(user_input, 'db/user-data-ebds.csv', 'db/user-data.csv')
-    convo.rolling_convo(user_input, found_db_texts, found_db_user_data)
-    # path 2: skip two db look-ups above todo to add if needed
+    output = convo.rolling_convo(user_input, found_db_texts, found_db_user_data)
+    return output
+
+if __name__ == '__main__':
+  while True:
+      user_input = input("\n\nUser: ")
+      output = chat_api(user_input)
+      print(output)
+      # path 2: skip two db look-ups above todo to add if needed
+
 
 
 # todo reduce the saved context further - summary function and remove it from the messages[] every 5 rounds for example

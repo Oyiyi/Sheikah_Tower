@@ -1,0 +1,675 @@
+2023-09-02 16:14:20,412 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 16:14:20,413 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 16:14:24,979 - INFO - User sent message: adsfasdf
+2023-09-02 16:14:24,980 - INFO - 127.0.0.1 - - [02/Sep/2023 16:14:24] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:14:28,129 - INFO - User sent message: hello
+2023-09-02 16:14:28,130 - INFO - 127.0.0.1 - - [02/Sep/2023 16:14:28] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:14:30,086 - INFO - User sent message: asdfasdf
+2023-09-02 16:14:30,087 - INFO - 127.0.0.1 - - [02/Sep/2023 16:14:30] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:14:32,044 - INFO - User sent message: 123
+2023-09-02 16:14:32,045 - INFO - 127.0.0.1 - - [02/Sep/2023 16:14:32] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:17:07,038 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 16:17:07,038 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 16:17:12,228 - INFO - 127.0.0.1 - - [02/Sep/2023 16:17:12] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 16:17:13,383 - INFO - 127.0.0.1 - - [02/Sep/2023 16:17:13] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 16:18:27,841 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 16:18:27,841 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 16:18:34,327 - INFO - 127.0.0.1 - - [02/Sep/2023 16:18:34] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 16:18:35,592 - INFO - 127.0.0.1 - - [02/Sep/2023 16:18:35] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 16:18:36,733 - INFO - 127.0.0.1 - - [02/Sep/2023 16:18:36] "GET / HTTP/1.1" 200 -
+2023-09-02 16:18:39,304 - INFO - User sent message: hello
+2023-09-02 16:18:39,306 - INFO - 127.0.0.1 - - [02/Sep/2023 16:18:39] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:18:39,331 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:18:39,523 - INFO - Use pytorch device: cpu
+2023-09-02 16:18:39,554 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:18:39,728 - INFO - Use pytorch device: cpu
+2023-09-02 16:18:46,538 - INFO - Bot response: None
+2023-09-02 16:20:39,877 - INFO - User sent message: ok
+2023-09-02 16:20:39,878 - INFO - 127.0.0.1 - - [02/Sep/2023 16:20:39] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:20:39,896 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:20:40,097 - INFO - Use pytorch device: cpu
+2023-09-02 16:20:40,116 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:20:40,285 - INFO - Use pytorch device: cpu
+2023-09-02 16:20:42,190 - INFO - User sent message: asdf
+2023-09-02 16:20:42,192 - INFO - 127.0.0.1 - - [02/Sep/2023 16:20:42] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:20:42,212 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:20:42,409 - INFO - Use pytorch device: cpu
+2023-09-02 16:20:42,427 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:20:42,593 - INFO - Use pytorch device: cpu
+2023-09-02 16:20:49,040 - INFO - Bot response: None
+2023-09-02 16:20:49,176 - INFO - Bot response: None
+2023-09-02 16:21:41,086 - INFO - 127.0.0.1 - - [02/Sep/2023 16:21:41] "GET / HTTP/1.1" 200 -
+2023-09-02 16:21:42,650 - INFO - 127.0.0.1 - - [02/Sep/2023 16:21:42] "GET / HTTP/1.1" 200 -
+2023-09-02 16:24:40,138 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 16:24:40,138 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 16:24:40,138 - INFO -  * Restarting with stat
+2023-09-02 16:24:41,704 - WARNING -  * Debugger is active!
+2023-09-02 16:24:41,711 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 16:24:43,468 - INFO - 127.0.0.1 - - [02/Sep/2023 16:24:43] "GET / HTTP/1.1" 200 -
+2023-09-02 16:24:46,239 - INFO - User sent message: hie
+2023-09-02 16:24:46,240 - INFO - 127.0.0.1 - - [02/Sep/2023 16:24:46] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:24:46,263 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:24:46,458 - INFO - Use pytorch device: cpu
+2023-09-02 16:24:46,497 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:24:46,672 - INFO - Use pytorch device: cpu
+2023-09-02 16:24:47,875 - INFO - User sent message: 
+2023-09-02 16:24:47,878 - INFO - 127.0.0.1 - - [02/Sep/2023 16:24:47] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:24:47,900 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:24:48,106 - INFO - Use pytorch device: cpu
+2023-09-02 16:24:48,124 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:24:48,290 - INFO - Use pytorch device: cpu
+2023-09-02 16:24:48,523 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Is there anything specific you'd like to see or learn about?
+2023-09-02 16:24:51,231 - INFO - User sent message: hello
+2023-09-02 16:24:51,233 - INFO - 127.0.0.1 - - [02/Sep/2023 16:24:51] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:24:51,253 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:24:51,446 - INFO - Use pytorch device: cpu
+2023-09-02 16:24:51,462 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:24:51,625 - INFO - Use pytorch device: cpu
+2023-09-02 16:24:53,319 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Is there anything specific you'd like to see or learn about?
+2023-09-02 16:24:56,122 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Are you excited to explore the wonders of ancient Egypt?
+
+Our first stop is the Nefertiti Bust. Nefertiti was one of the most famous queens of ancient Egypt, known for her beauty and elegance. The bust you see here is a stunning representation of her. It was created by skilled sculptors who would carefully carve the features of the queen into the stone. This particular bust is a masterpiece, capturing Nefertiti's regal and serene expression.
+
+Next, let's move on to the Baboon Mummy. This figure is quite unique and interesting. In ancient Egypt, baboons were considered sacred animals and were associated with the god Thoth, who was the god of wisdom and writing. The baboon mummy you see here is an anomaly, as it is rare to find such mummified animals. It is believed that these baboons were mumm
+2023-09-02 16:24:56,833 - INFO - User sent message: i'm doing good
+2023-09-02 16:24:56,835 - INFO - 127.0.0.1 - - [02/Sep/2023 16:24:56] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:24:56,853 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:24:57,043 - INFO - Use pytorch device: cpu
+2023-09-02 16:24:57,064 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:24:57,229 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:05,337 - INFO - Bot response: That's great to hear, Ahmed! As an archaeologist, I'm sure you'll find the Egyptian Museum fascinating. We have a wide range of artifacts and exhibits that showcase the rich history and culture of ancient Egypt.
+
+One of the highlights of our museum is the Nefertiti Bust. This exquisite sculpture depicts Queen Nefertiti, one of the most iconic figures of ancient Egypt. Known for her beauty and influence, Nefertiti was the wife of Pharaoh Akhenaten and played a significant role during his reign. The bust is a masterpiece of artistry, capturing the queen's delicate features and regal expression.
+
+Another intriguing exhibit is the Baboon Mummy. Although it may sound unusual, mummified baboons were actually quite common in ancient Egypt. Baboons were considered sacred animals and were associated with the god Thoth, who was the god of wisdom and writing. This particular mummy is unique because it does not contain an actual baboon, but instead,
+2023-09-02 16:25:10,047 - INFO - User sent message: ok
+2023-09-02 16:25:10,049 - INFO - 127.0.0.1 - - [02/Sep/2023 16:25:10] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:25:10,069 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:10,258 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:10,278 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:10,444 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:17,833 - INFO - Bot response: Great! Now let's move on to another interesting exhibit in the museum. One exhibit that might catch your interest is the Baboon Mummy. This figure is quite unique and intriguing. 
+
+In ancient Egypt, baboons were considered sacred animals and were associated with the god Thoth, who was the god of wisdom and writing. The baboon mummy you see here is an anomaly, as it is rare to find such mummified animals. It is believed that these baboons were mummified as offerings to the gods or as companions for the deceased in the afterlife.
+
+This particular mummy is interesting because it is not actually a baboon, but rather a representation of one. The figure is made from a combination of materials, such as wood, linen, and plaster, and shaped to resemble a baboon. It gives us a glimpse into the ancient Egyptian beliefs and practices surrounding animal mummification.
+
+If you have any more questions or if there's anything else you'd like to
+2023-09-02 16:25:35,716 - INFO - User sent message: how's the weather in pacifica? 
+2023-09-02 16:25:35,719 - INFO - 127.0.0.1 - - [02/Sep/2023 16:25:35] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:25:35,739 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:35,925 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:35,944 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:36,106 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:38,411 - INFO - User sent message: 
+2023-09-02 16:25:38,413 - INFO - 127.0.0.1 - - [02/Sep/2023 16:25:38] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:25:38,496 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:38,566 - INFO - Bot response: I apologize for any confusion, but as a tour guide in an Egyptian museum, I don't have real-time information about the weather in Pacifica. My focus is on providing information about the exhibits and artifacts here in the museum. Is there anything else I can assist you with regarding ancient Egypt or the museum?
+2023-09-02 16:25:38,664 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:38,684 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:38,849 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:40,514 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Is there anything specific you'd like to see or learn about?
+2023-09-02 16:25:42,314 - INFO - User sent message: ?
+2023-09-02 16:25:42,316 - INFO - 127.0.0.1 - - [02/Sep/2023 16:25:42] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:25:42,335 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:42,524 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:42,542 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:42,706 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:45,275 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. We have a wide range of exhibits and artifacts that showcase the fascinating history and culture of ancient Egypt. Is there anything specific you're interested in or any particular exhibit you'd like to explore?
+2023-09-02 16:25:51,264 - INFO - 127.0.0.1 - - [02/Sep/2023 16:25:51] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 16:25:54,034 - INFO - 127.0.0.1 - - [02/Sep/2023 16:25:54] "GET / HTTP/1.1" 200 -
+2023-09-02 16:25:57,604 - INFO - User sent message: helelo
+2023-09-02 16:25:57,606 - INFO - 127.0.0.1 - - [02/Sep/2023 16:25:57] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:25:57,625 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:57,814 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:57,832 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:25:57,994 - INFO - Use pytorch device: cpu
+2023-09-02 16:25:59,712 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Is there anything specific you'd like to see or learn about?
+2023-09-02 16:26:00,445 - INFO - User sent message: 
+2023-09-02 16:26:00,446 - INFO - 127.0.0.1 - - [02/Sep/2023 16:26:00] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:26:00,467 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:00,660 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:00,680 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:00,844 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:02,485 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Is there anything specific you'd like to see or learn about?
+2023-09-02 16:26:11,299 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 16:26:11,299 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 16:26:11,299 - INFO -  * Restarting with stat
+2023-09-02 16:26:12,866 - WARNING -  * Debugger is active!
+2023-09-02 16:26:12,874 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 16:26:12,881 - INFO - User sent message: 
+2023-09-02 16:26:12,881 - INFO - 127.0.0.1 - - [02/Sep/2023 16:26:12] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:26:12,892 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:13,071 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:13,100 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:13,282 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:15,668 - INFO - User sent message: hello
+2023-09-02 16:26:15,671 - INFO - 127.0.0.1 - - [02/Sep/2023 16:26:15] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:26:15,692 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:15,898 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:15,917 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:16,081 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:17,803 - INFO - Bot response: Hello Ahmed El-Masry! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Are you ready to explore the fascinating world of ancient Egypt?
+2023-09-02 16:26:19,888 - INFO - Bot response: Hello Ahmed El-Masry! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Are you ready to explore the fascinating world of ancient Egypt?
+
+Our first stop is the Baboon Mummy exhibit. This figure is quite unique and interesting. It is an anomaly because it is not a human mummy, but rather a mummified baboon. In ancient Egypt, baboons were considered sacred animals and were often associated with the god Thoth, who was the god of wisdom and writing. The baboon mummy was believed to be a representation of Thoth himself. It's truly a remarkable piece that gives us insight into the religious beliefs of ancient Egyptians.
+
+Next, we have the Nefertiti Bust. Nefertiti was one of the most powerful and influential queens of ancient Egypt. As you can see, the bust depicts her with a beautifully sculpted face, elegant features, and a regal headdress. Nefertiti
+2023-09-02 16:26:34,851 - INFO - User sent message: 1+1=?
+2023-09-02 16:26:34,853 - INFO - 127.0.0.1 - - [02/Sep/2023 16:26:34] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:26:34,872 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:35,066 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:35,086 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:35,249 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:36,989 - INFO - Bot response: Ahmed El-Masry, as an archaeologist, you must have a keen eye for details! The answer to 1+1 is 2. Now, let's continue our tour of the Egyptian Museum.
+2023-09-02 16:26:37,771 - INFO - User sent message: ok
+2023-09-02 16:26:37,772 - INFO - 127.0.0.1 - - [02/Sep/2023 16:26:37] "POST /send HTTP/1.1" 200 -
+2023-09-02 16:26:37,790 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:37,982 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:38,000 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 16:26:38,165 - INFO - Use pytorch device: cpu
+2023-09-02 16:26:42,416 - INFO - Bot response: Ahmed El-Masry, as an archaeologist with an interest in ancient animals, you'll find our next exhibit quite intriguing. 
+
+Our next stop is the Baboon Mummy exhibit. However, I must clarify that there is no actual baboon inside this mummy. It is an anomaly in the sense that it was believed to contain a baboon, but upon further examination, it was discovered to be a different animal entirely. This discovery sheds light on the practices and beliefs surrounding animal mummification in ancient Egypt.
+
+Now, let's move on to another fascinating exhibit.
+2023-09-02 16:26:52,710 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/llm/llm_agent.py', reloading
+2023-09-02 16:26:52,986 - INFO -  * Restarting with stat
+2023-09-02 16:26:54,545 - WARNING -  * Debugger is active!
+2023-09-02 16:26:54,552 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 16:27:04,787 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/llm/llm_agent.py', reloading
+2023-09-02 16:27:05,067 - INFO -  * Restarting with stat
+2023-09-02 16:27:06,642 - WARNING -  * Debugger is active!
+2023-09-02 16:27:06,648 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 16:27:14,798 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/llm/llm_agent.py', reloading
+2023-09-02 16:27:15,086 - INFO -  * Restarting with stat
+2023-09-02 16:27:16,638 - WARNING -  * Debugger is active!
+2023-09-02 16:27:16,644 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 16:27:20,846 - INFO - 127.0.0.1 - - [02/Sep/2023 16:27:20] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 16:28:53,843 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/wrapper.py', reloading
+2023-09-02 16:28:54,125 - INFO -  * Restarting with stat
+2023-09-02 16:28:55,684 - WARNING -  * Debugger is active!
+2023-09-02 16:28:55,691 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 16:47:33,816 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 16:47:34,110 - INFO -  * Restarting with stat
+2023-09-02 16:47:35,656 - WARNING -  * Debugger is active!
+2023-09-02 16:47:35,663 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 16:47:41,788 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 16:47:42,084 - INFO -  * Restarting with stat
+2023-09-02 16:47:43,636 - WARNING -  * Debugger is active!
+2023-09-02 16:47:43,643 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 16:48:05,110 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 16:48:05,397 - INFO -  * Restarting with stat
+2023-09-02 16:48:06,997 - WARNING -  * Debugger is active!
+2023-09-02 16:48:07,004 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 22:56:54,486 - INFO - User sent message: ok
+2023-09-02 22:56:54,488 - INFO - 127.0.0.1 - - [02/Sep/2023 22:56:54] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:56:54,510 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:56:54,716 - INFO - Use pytorch device: cpu
+2023-09-02 22:56:54,748 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:56:54,924 - INFO - Use pytorch device: cpu
+2023-09-02 22:56:56,087 - INFO - User sent message: 
+2023-09-02 22:56:56,089 - INFO - 127.0.0.1 - - [02/Sep/2023 22:56:56] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:56:56,110 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:56:56,317 - INFO - Use pytorch device: cpu
+2023-09-02 22:56:56,334 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:56:56,500 - INFO - Use pytorch device: cpu
+2023-09-02 22:56:58,146 - INFO - Bot response: Welcome, Ahmed, to the Egyptian Museum! As we explore the exhibits, I'll be sharing interesting facts and stories about the artifacts. Are you ready to begin our tour?
+2023-09-02 22:56:58,781 - INFO - User sent message: hello
+2023-09-02 22:56:58,783 - INFO - 127.0.0.1 - - [02/Sep/2023 22:56:58] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:56:58,799 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:56:58,986 - INFO - Use pytorch device: cpu
+2023-09-02 22:56:59,003 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:56:59,169 - INFO - Use pytorch device: cpu
+2023-09-02 22:57:02,238 - INFO - Bot response: Welcome to the Egyptian Museum! Our first stop is the animal mummy section. Here, you'll find fascinating mummified animals that were an important part of ancient Egyptian culture.
+
+One of the highlights of this section is the Baboon Mummy. However, I must inform you that there is no baboon mummy in this collection. It seems that there was a mistake in the labeling. But don't worry, we still have plenty of other interesting animal mummies to explore!
+
+Let's move on to the next exhibit, where we have a variety of animal mummies on display. From cats to crocodiles, the ancient Egyptians believed that these animals held special significance and were associated with various deities.
+
+If you're particularly interested in ancient animals, you'll be amazed by the diversity of species represented here. We have mummified ibises, falcons, snakes, and even scarab beetles. These animals were often considered sacred and were mummified as offerings to the gods
+2023-09-02 22:57:04,126 - INFO - User sent message: ok
+2023-09-02 22:57:04,128 - INFO - 127.0.0.1 - - [02/Sep/2023 22:57:04] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:57:04,149 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:57:04,342 - INFO - Use pytorch device: cpu
+2023-09-02 22:57:04,359 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:57:04,524 - INFO - Use pytorch device: cpu
+2023-09-02 22:57:07,293 - INFO - Bot response: Hello, Ahmed! Welcome to the Egyptian Museum. My name is Alice, and I'll be your tour guide today. Are you excited to explore the wonders of ancient Egypt?
+
+Our first stop on the tour is the Nefertiti Bust. This iconic sculpture is believed to depict Queen Nefertiti, one of the most powerful and influential queens of ancient Egypt. The bust showcases her beauty and elegance, with intricate details and a serene expression. It's truly a remarkable piece of art.
+
+Next, we have the Baboon Mummy exhibit. While baboons were considered sacred animals in ancient Egypt, this particular mummy is quite unique. It's an anomaly because there is no baboon inside! It's fascinating to see how the ancient Egyptians revered animals and mummified them as offerings to the gods.
+
+As we continue our journey through the museum, feel free to ask any questions or share your thoughts. Let's explore the wonders of ancient Egypt together!
+2023-09-02 22:57:11,641 - INFO - Bot response: Great! Let's continue our tour. Our next stop is the Nefertiti Bust. This iconic sculpture is one of the most famous artifacts from ancient Egypt. It depicts Queen Nefertiti, the wife of Pharaoh Akhenaten, and is renowned for its exquisite craftsmanship and beauty.
+
+Nefertiti was known for her elegance and grace, and this bust captures her likeness with remarkable detail. It is believed to have been created around 1345 BCE and was discovered in 1912 by a German archaeologist.
+
+As you admire the Nefertiti Bust, take a moment to appreciate the delicate features, the smooth contours of her face, and the intricate headdress she wears. This sculpture is a testament to the artistic skill and aesthetic sensibilities of the ancient Egyptians.
+
+Do you have any questions about the Nefertiti Bust or anything else you'd like to know?
+2023-09-02 22:58:33,021 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 22:58:33,306 - INFO -  * Restarting with stat
+2023-09-02 22:58:35,421 - WARNING -  * Debugger is active!
+2023-09-02 22:58:35,428 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 22:58:40,534 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 22:58:40,809 - INFO -  * Restarting with stat
+2023-09-02 22:58:42,392 - WARNING -  * Debugger is active!
+2023-09-02 22:58:42,399 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 22:58:45,480 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 22:58:45,757 - INFO -  * Restarting with stat
+2023-09-02 22:58:47,385 - WARNING -  * Debugger is active!
+2023-09-02 22:58:47,392 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 22:58:55,570 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 22:58:55,848 - INFO -  * Restarting with stat
+2023-09-02 22:58:57,433 - WARNING -  * Debugger is active!
+2023-09-02 22:58:57,439 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 22:59:12,780 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 22:59:13,072 - INFO -  * Restarting with stat
+2023-09-02 22:59:14,622 - WARNING -  * Debugger is active!
+2023-09-02 22:59:14,629 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 22:59:25,556 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 22:59:25,556 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 22:59:25,556 - INFO -  * Restarting with stat
+2023-09-02 22:59:27,112 - WARNING -  * Debugger is active!
+2023-09-02 22:59:27,123 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 22:59:36,235 - INFO - 127.0.0.1 - - [02/Sep/2023 22:59:36] "GET / HTTP/1.1" 200 -
+2023-09-02 22:59:39,201 - INFO - 127.0.0.1 - - [02/Sep/2023 22:59:39] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:59:39,225 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:39,418 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:39,448 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:39,622 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:40,338 - INFO - 127.0.0.1 - - [02/Sep/2023 22:59:40] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:59:40,372 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:40,573 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:40,589 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:40,754 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:41,819 - INFO - 127.0.0.1 - - [02/Sep/2023 22:59:41] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:59:41,842 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:42,035 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:42,051 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:42,216 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:42,641 - INFO - 127.0.0.1 - - [02/Sep/2023 22:59:42] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:59:42,662 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:42,859 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:42,877 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:43,043 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:45,255 - INFO - 127.0.0.1 - - [02/Sep/2023 22:59:45] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:59:45,278 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:45,466 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:45,486 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:45,650 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:46,125 - INFO - 127.0.0.1 - - [02/Sep/2023 22:59:46] "POST /send HTTP/1.1" 200 -
+2023-09-02 22:59:46,145 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:46,339 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:46,357 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 22:59:46,443 - INFO - User sent message: hello
+2023-09-02 22:59:46,443 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. Are you excited to learn about the fascinating history and artifacts of ancient Egypt? Let's begin our tour!
+
+Our first stop is the iconic Nefertiti Bust. Nefertiti was the queen of Egypt and the wife of Pharaoh Akhenaten during the 14th century BCE. This beautiful limestone bust showcases her elegant features and is considered one of the most famous and important pieces of ancient Egyptian art. It was discovered in 1912 and has since become a symbol of feminine beauty and power in Egyptian history.
+
+Now, let's move on to the Baboon Mummy. This figure is quite unique and intriguing. In ancient Egypt, baboons were associated with the god Thoth, who was the god of wisdom and knowledge. The baboon mummy you see here was carefully preserved and buried as an offering to Thoth. It is quite rare to find baboon mummies, making this artifact even more special.
+
+As we continue our
+2023-09-02 22:59:46,522 - INFO - Use pytorch device: cpu
+2023-09-02 22:59:48,521 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 22:59:48,802 - INFO -  * Restarting with stat
+2023-09-02 22:59:50,367 - WARNING -  * Debugger is active!
+2023-09-02 22:59:50,373 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:00:54,734 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:00:55,019 - INFO -  * Restarting with stat
+2023-09-02 23:00:56,585 - WARNING -  * Debugger is active!
+2023-09-02 23:00:56,592 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:01:05,808 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:01:06,118 - INFO -  * Restarting with stat
+2023-09-02 23:01:07,665 - WARNING -  * Debugger is active!
+2023-09-02 23:01:07,672 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:01:09,717 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:01:10,021 - INFO -  * Restarting with stat
+2023-09-02 23:01:11,598 - WARNING -  * Debugger is active!
+2023-09-02 23:01:11,605 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:02:22,914 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:02:22,914 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:02:22,914 - INFO -  * Restarting with stat
+2023-09-02 23:02:24,477 - WARNING -  * Debugger is active!
+2023-09-02 23:02:24,483 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:02:50,037 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:02:50,315 - INFO -  * Restarting with stat
+2023-09-02 23:02:51,873 - WARNING -  * Debugger is active!
+2023-09-02 23:02:51,880 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:02:59,047 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:02:59,322 - INFO -  * Restarting with stat
+2023-09-02 23:03:00,920 - WARNING -  * Debugger is active!
+2023-09-02 23:03:00,927 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:03:01,958 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:03:02,238 - INFO -  * Restarting with stat
+2023-09-02 23:03:03,821 - WARNING -  * Debugger is active!
+2023-09-02 23:03:03,828 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:03:07,900 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:03:08,182 - INFO -  * Restarting with stat
+2023-09-02 23:03:09,757 - WARNING -  * Debugger is active!
+2023-09-02 23:03:09,764 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:03:22,033 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:03:22,315 - INFO -  * Restarting with stat
+2023-09-02 23:03:23,872 - WARNING -  * Debugger is active!
+2023-09-02 23:03:23,880 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:03:28,998 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:03:29,296 - INFO -  * Restarting with stat
+2023-09-02 23:03:33,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:03:33,053 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:03:33,053 - INFO -  * Restarting with stat
+2023-09-02 23:03:34,611 - WARNING -  * Debugger is active!
+2023-09-02 23:03:34,617 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:06:54,929 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:06:54,929 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:06:54,929 - INFO -  * Restarting with stat
+2023-09-02 23:06:56,594 - WARNING -  * Debugger is active!
+2023-09-02 23:06:56,601 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:07:13,966 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:07:14,247 - INFO -  * Restarting with stat
+2023-09-02 23:07:15,812 - WARNING -  * Debugger is active!
+2023-09-02 23:07:15,819 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:07:20,032 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:07:20,032 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:07:20,033 - INFO -  * Restarting with stat
+2023-09-02 23:07:21,647 - WARNING -  * Debugger is active!
+2023-09-02 23:07:21,654 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:07:22,263 - INFO - 127.0.0.1 - - [02/Sep/2023 23:07:22] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 23:07:24,044 - INFO - 127.0.0.1 - - [02/Sep/2023 23:07:24] "GET / HTTP/1.1" 200 -
+2023-09-02 23:07:26,241 - INFO - 127.0.0.1 - - [02/Sep/2023 23:07:26] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:07:26,264 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:07:26,457 - INFO - Use pytorch device: cpu
+2023-09-02 23:07:26,485 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:07:26,662 - INFO - Use pytorch device: cpu
+2023-09-02 23:07:28,970 - INFO - 127.0.0.1 - - [02/Sep/2023 23:07:28] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:07:28,993 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:07:29,196 - INFO - Use pytorch device: cpu
+2023-09-02 23:07:29,214 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:07:29,376 - INFO - Use pytorch device: cpu
+2023-09-02 23:07:31,688 - INFO - User sent message: nihao
+2023-09-02 23:07:31,688 - INFO - Bot response: Hello, Ahmed! Welcome to the Egyptian Museum. As an archaeologist, I'm sure you'll find this tour fascinating. Are you ready to explore the wonders of ancient Egypt?
+2023-09-02 23:07:31,871 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:07:32,144 - INFO -  * Restarting with stat
+2023-09-02 23:07:33,712 - WARNING -  * Debugger is active!
+2023-09-02 23:07:33,719 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:07:36,783 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:07:37,079 - INFO -  * Restarting with stat
+2023-09-02 23:07:38,657 - WARNING -  * Debugger is active!
+2023-09-02 23:07:38,664 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:07:44,801 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:07:45,084 - INFO -  * Restarting with stat
+2023-09-02 23:07:46,667 - WARNING -  * Debugger is active!
+2023-09-02 23:07:46,674 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:07:51,599 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:07:51,599 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:07:51,600 - INFO -  * Restarting with stat
+2023-09-02 23:07:53,176 - WARNING -  * Debugger is active!
+2023-09-02 23:07:53,183 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:07:53,471 - INFO - 127.0.0.1 - - [02/Sep/2023 23:07:53] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 23:07:54,746 - INFO - 127.0.0.1 - - [02/Sep/2023 23:07:54] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 23:07:57,445 - INFO - 127.0.0.1 - - [02/Sep/2023 23:07:57] "GET / HTTP/1.1" 200 -
+2023-09-02 23:08:00,468 - INFO - User sent message: hello
+2023-09-02 23:08:00,470 - INFO - 127.0.0.1 - - [02/Sep/2023 23:08:00] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:08:00,495 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:08:00,689 - INFO - Use pytorch device: cpu
+2023-09-02 23:08:00,717 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:08:00,891 - INFO - Use pytorch device: cpu
+2023-09-02 23:08:03,783 - INFO - User sent message: helli
+2023-09-02 23:08:03,785 - INFO - 127.0.0.1 - - [02/Sep/2023 23:08:03] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:08:03,805 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:08:04,009 - INFO - Use pytorch device: cpu
+2023-09-02 23:08:04,025 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:08:04,193 - INFO - Use pytorch device: cpu
+2023-09-02 23:08:05,817 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian museum. My name is Alice and I'll be your tour guide today. Are you ready to explore the fascinating world of ancient Egypt?
+2023-09-02 23:08:06,369 - INFO - User sent message: hello
+2023-09-02 23:08:06,371 - INFO - 127.0.0.1 - - [02/Sep/2023 23:08:06] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:08:06,390 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:08:06,584 - INFO - Use pytorch device: cpu
+2023-09-02 23:08:06,604 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:08:06,772 - INFO - Use pytorch device: cpu
+2023-09-02 23:08:08,859 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. Are you excited to learn about the fascinating history and artifacts of ancient Egypt? Let's begin our tour.
+
+Our first stop is the famous Nefertiti Bust. Nefertiti was the queen of Egypt and the wife of Pharaoh Akhenaten. This beautiful limestone sculpture is believed to have been created around 1345 BC. Nefertiti is known for her striking beauty and this bust is considered one of the most iconic representations of her. It was discovered in 1912 and is now one of the most prized possessions of the museum.
+
+Now, let's move on to the Baboon Mummy. This particular figure is quite unique and intriguing. Ancient Egyptians worshipped animals and believed that they had divine qualities. The baboon, in particular, was associated with the god Thoth, who was the god of wisdom, writing, and knowledge. This mummified baboon is an anomaly because it is unusual to find a m
+2023-09-02 23:08:12,342 - INFO - User sent message: h'
+2023-09-02 23:08:12,344 - INFO - 127.0.0.1 - - [02/Sep/2023 23:08:12] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:08:12,362 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:08:12,552 - INFO - Use pytorch device: cpu
+2023-09-02 23:08:12,570 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:08:12,735 - INFO - Use pytorch device: cpu
+2023-09-02 23:08:14,287 - INFO - Bot response: Hello Ahmed! How can I assist you today? Is there something specific you would like to know or explore in the Egyptian museum?
+2023-09-02 23:08:14,497 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian museum. My name is Alice and I'll be your tour guide today. Are you excited to discover the wonders of ancient Egypt? Let's begin our journey!
+
+Our first stop is the Nefertiti Bust. Nefertiti was one of the most famous queens of ancient Egypt. This beautifully crafted limestone bust showcases her elegance and beauty. As you can see, her features are delicately carved, and her iconic headdress adds to her regal appearance. The Nefertiti Bust is considered a masterpiece of ancient Egyptian art.
+
+Next, let's move on to the Baboon Mummy. This peculiar artifact is quite unique. It is believed to be the mummified remains of a baboon, which was considered sacred in ancient Egyptian culture. Baboons were associated with the god Thoth, who was the god of wisdom and writing. This figure is an anomaly because baboon mummies are relatively rare compared to other animal mummies found in Egypt
+2023-09-02 23:08:16,679 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:08:16,983 - INFO -  * Restarting with stat
+2023-09-02 23:08:18,715 - WARNING -  * Debugger is active!
+2023-09-02 23:08:18,721 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:08:51,504 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:08:51,796 - INFO -  * Restarting with stat
+2023-09-02 23:08:53,380 - WARNING -  * Debugger is active!
+2023-09-02 23:08:53,387 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:09:04,998 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:09:04,998 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:09:04,998 - INFO -  * Restarting with stat
+2023-09-02 23:09:06,609 - WARNING -  * Debugger is active!
+2023-09-02 23:09:06,615 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:09:11,911 - INFO - 127.0.0.1 - - [02/Sep/2023 23:09:11] "GET / HTTP/1.1" 200 -
+2023-09-02 23:09:14,609 - INFO - User sent message: hello
+2023-09-02 23:09:14,610 - INFO - 127.0.0.1 - - [02/Sep/2023 23:09:14] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:09:14,634 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:09:14,832 - INFO - Use pytorch device: cpu
+2023-09-02 23:09:14,859 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:09:15,032 - INFO - Use pytorch device: cpu
+2023-09-02 23:09:22,959 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:09:23,234 - INFO -  * Restarting with stat
+2023-09-02 23:09:24,827 - WARNING -  * Debugger is active!
+2023-09-02 23:09:24,833 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:09:58,613 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:09:58,914 - INFO -  * Restarting with stat
+2023-09-02 23:10:00,498 - WARNING -  * Debugger is active!
+2023-09-02 23:10:00,504 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:10:03,682 - INFO - 127.0.0.1 - - [02/Sep/2023 23:10:03] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 23:10:05,562 - INFO - 127.0.0.1 - - [02/Sep/2023 23:10:05] "GET / HTTP/1.1" 200 -
+2023-09-02 23:10:08,490 - INFO - User sent message: hello
+2023-09-02 23:10:08,491 - INFO - 127.0.0.1 - - [02/Sep/2023 23:10:08] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:10:08,515 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:10:08,709 - INFO - Use pytorch device: cpu
+2023-09-02 23:10:08,736 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:10:08,911 - INFO - Use pytorch device: cpu
+2023-09-02 23:10:10,568 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice, and I'll be your tour guide today. Are you excited to explore the wonders of ancient Egypt?
+2023-09-02 23:10:10,936 - INFO - User sent message: hello
+2023-09-02 23:10:10,939 - INFO - 127.0.0.1 - - [02/Sep/2023 23:10:10] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:10:10,958 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:10:11,159 - INFO - Use pytorch device: cpu
+2023-09-02 23:10:11,175 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:10:11,341 - INFO - Use pytorch device: cpu
+2023-09-02 23:10:13,163 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice, and I'll be your tour guide today. Are you excited to explore the wonders of ancient Egypt?
+2023-09-02 23:10:13,783 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:10:14,067 - INFO -  * Restarting with stat
+2023-09-02 23:10:15,617 - WARNING -  * Debugger is active!
+2023-09-02 23:10:15,624 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:11:26,107 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:11:26,385 - INFO -  * Restarting with stat
+2023-09-02 23:12:16,805 - INFO -  * Restarting with stat
+2023-09-02 23:12:18,586 - WARNING -  * Debugger is active!
+2023-09-02 23:12:18,598 - INFO -  * Debugger PIN: 888-150-968
+2023-09-02 23:13:05,615 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:13:05,936 - INFO -  * Restarting with stat
+2023-09-02 23:14:54,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:14:54,438 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:14:54,439 - INFO -  * Restarting with stat
+2023-09-02 23:14:56,072 - WARNING -  * Debugger is active!
+2023-09-02 23:14:56,078 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:15:09,353 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:15:09,640 - INFO -  * Restarting with stat
+2023-09-02 23:15:13,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:15:13,445 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:15:13,445 - INFO -  * Restarting with stat
+2023-09-02 23:15:15,097 - WARNING -  * Debugger is active!
+2023-09-02 23:15:15,105 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:15:15,446 - INFO - 127.0.0.1 - - [02/Sep/2023 23:15:15] "GET / HTTP/1.1" 200 -
+2023-09-02 23:15:17,954 - INFO - User sent message: hello
+2023-09-02 23:15:17,955 - INFO - 127.0.0.1 - - [02/Sep/2023 23:15:17] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:15:17,981 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:18,175 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:18,207 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:18,382 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:20,749 - INFO - User sent message: hi
+2023-09-02 23:15:20,752 - INFO - 127.0.0.1 - - [02/Sep/2023 23:15:20] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:15:20,771 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:20,976 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:20,993 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:21,159 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:22,873 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Are you excited to explore the wonders of ancient Egypt?
+2023-09-02 23:15:25,390 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice, and I'll be your tour guide today. Are you excited to explore the wonders of ancient Egypt?
+
+Our first stop is the iconic Nefertiti Bust. Nefertiti was the queen of Egypt during the 14th century BC and is known for her beauty and influence. This bust is a famous representation of her, showcasing her elegant features and graceful posture. It's believed to have been created by the sculptor Thutmose and was discovered in Amarna, Egypt. The Nefertiti Bust is considered one of the most remarkable pieces of ancient Egyptian art.
+
+Now, let's move on to the Baboon Mummy. This figure is quite intriguing as it is an anomaly among the mummified animals found in ancient Egypt. Baboons were considered sacred animals and were associated with the god Thoth, who was the god of wisdom and writing. This particular baboon mummy might have been a cherished pet
+2023-09-02 23:15:25,634 - INFO - User sent message: hi
+2023-09-02 23:15:25,636 - INFO - 127.0.0.1 - - [02/Sep/2023 23:15:25] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:15:25,655 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:25,846 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:25,864 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:26,032 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:33,037 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice and I'll be your tour guide today. Are you ready to explore the fascinating world of ancient Egypt?
+
+Our first stop is the Nefertiti Bust. This beautiful sculpture depicts Queen Nefertiti, one of the most iconic figures in ancient Egyptian history. Nefertiti was the wife of Pharaoh Akhenaten and played a significant role in the religious and political changes that occurred during their reign. The bust is renowned for its exquisite craftsmanship and the way it captures the elegance and grace of Nefertiti.
+
+Next, we have the Baboon Mummy. This figure is quite unique and unusual. In ancient Egypt, baboons were considered sacred animals and were associated with the god Thoth, who was the god of wisdom, writing, and knowledge. The baboon mummy you see here might have been a cherished pet or a symbol of religious devotion. It's fascinating to see how the ancient Egyptians honored and
+2023-09-02 23:15:33,448 - INFO - User sent message: who are you
+2023-09-02 23:15:33,449 - INFO - 127.0.0.1 - - [02/Sep/2023 23:15:33] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:15:33,471 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:33,664 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:33,683 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:33,846 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:36,184 - INFO - Bot response: I apologize for any confusion. My name is Alice, and I am an AI-powered virtual assistant. I am here to provide information and act as your tour guide in the Egyptian Museum. Is there anything specific you would like to know or explore during our tour?
+2023-09-02 23:15:40,959 - INFO - User sent message: ?
+2023-09-02 23:15:40,961 - INFO - 127.0.0.1 - - [02/Sep/2023 23:15:40] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:15:40,981 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:41,173 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:41,193 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:15:41,359 - INFO - Use pytorch device: cpu
+2023-09-02 23:15:44,153 - INFO - Bot response: I apologize for any confusion. As an AI-powered virtual assistant, I am here to provide information and assist you during your tour of the Egyptian Museum. Is there anything specific you would like to know or explore? Feel free to ask any questions or let me know if there's a particular exhibit you're interested in.
+2023-09-02 23:15:45,742 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:15:46,028 - INFO -  * Restarting with stat
+2023-09-02 23:15:47,614 - WARNING -  * Debugger is active!
+2023-09-02 23:15:47,620 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:15:48,646 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:15:48,931 - INFO -  * Restarting with stat
+2023-09-02 23:15:50,523 - WARNING -  * Debugger is active!
+2023-09-02 23:15:50,530 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:16:23,227 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:16:23,504 - INFO -  * Restarting with stat
+2023-09-02 23:16:25,076 - WARNING -  * Debugger is active!
+2023-09-02 23:16:25,083 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:16:36,332 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:16:36,615 - INFO -  * Restarting with stat
+2023-09-02 23:16:40,673 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-02 23:16:40,673 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-02 23:16:40,674 - INFO -  * Restarting with stat
+2023-09-02 23:16:42,243 - WARNING -  * Debugger is active!
+2023-09-02 23:16:42,249 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:16:43,197 - INFO - 127.0.0.1 - - [02/Sep/2023 23:16:43] "[31m[1mGET /send HTTP/1.1[0m" 405 -
+2023-09-02 23:16:45,504 - INFO - 127.0.0.1 - - [02/Sep/2023 23:16:45] "GET / HTTP/1.1" 200 -
+2023-09-02 23:16:47,297 - INFO - User sent message: hi
+2023-09-02 23:16:47,298 - INFO - 127.0.0.1 - - [02/Sep/2023 23:16:47] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:16:47,322 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:16:47,526 - INFO - Use pytorch device: cpu
+2023-09-02 23:16:47,556 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:16:47,743 - INFO - Use pytorch device: cpu
+2023-09-02 23:16:53,652 - INFO - User sent message: hell
+2023-09-02 23:16:53,654 - INFO - 127.0.0.1 - - [02/Sep/2023 23:16:53] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:16:53,676 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:16:53,911 - INFO - Use pytorch device: cpu
+2023-09-02 23:16:53,932 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:16:54,150 - INFO - Use pytorch device: cpu
+2023-09-02 23:16:54,786 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. Are you ready to embark on a journey through ancient Egypt? Let's start our tour!
+
+Our first stop is the famous Nefertiti Bust. Nefertiti was the queen of Egypt and the wife of Pharaoh Akhenaten. This beautiful limestone sculpture is believed to have been created by the sculptor Thutmose around 1345 BC. It is considered one of the most iconic and well-preserved artifacts from ancient Egypt. The Nefertiti Bust is known for its exquisite craftsmanship and the serene expression on Nefertiti's face. It is truly a masterpiece of ancient art.
+
+Next, we have the Baboon Mummy. This figure is quite unique and intriguing. In ancient Egypt, baboons were associated with the god Thoth, who was the god of wisdom and writing. The baboon mummy you see here was carefully preserved and buried as a symbol of reverence for Thoth. It is fascinating to see how
+2023-09-02 23:16:55,947 - INFO - User sent message: hello
+2023-09-02 23:16:55,948 - INFO - 127.0.0.1 - - [02/Sep/2023 23:16:55] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:16:55,972 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:16:56,193 - INFO - Use pytorch device: cpu
+2023-09-02 23:16:56,215 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:16:56,434 - INFO - Use pytorch device: cpu
+2023-09-02 23:16:57,960 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. I'm Alice, your tour guide for today. How can I assist you?
+2023-09-02 23:16:59,813 - INFO - User sent message: i'm qi
+2023-09-02 23:16:59,815 - INFO - 127.0.0.1 - - [02/Sep/2023 23:16:59] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:16:59,836 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:17:00,031 - INFO - Use pytorch device: cpu
+2023-09-02 23:17:00,048 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:17:00,216 - INFO - Use pytorch device: cpu
+2023-09-02 23:17:02,055 - INFO - Bot response: Hello Ahmed! Nice to meet you. How can I assist you today? Are you interested in learning about any specific artifacts or areas of the museum?
+2023-09-02 23:17:02,056 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. My name is Alice, and I'll be your tour guide today. Are you excited to explore the wonders of ancient Egypt?
+
+Our first stop is the Nefertiti Bust. This beautiful sculpture depicts Queen Nefertiti, one of the most iconic figures of ancient Egypt. Nefertiti was the wife of Pharaoh Akhenaten and played a significant role in the religious and artistic revolution during the Amarna Period. The bust showcases her delicate features and elegant headdress, making it a masterpiece of ancient Egyptian art.
+
+Next, let's move on to the Baboon Mummy. This figure is quite unique and intriguing. While most mummies contain the remains of humans, this one is an anomaly. It actually contains the remains of a baboon, an animal that was considered sacred in ancient Egypt. Baboons were associated with the god Thoth, who was the god of wisdom, writing, and knowledge. This mummy serves as a
+2023-09-02 23:17:03,619 - INFO - User sent message: ff
+2023-09-02 23:17:03,620 - INFO - 127.0.0.1 - - [02/Sep/2023 23:17:03] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:17:03,640 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:17:03,831 - INFO - Use pytorch device: cpu
+2023-09-02 23:17:03,850 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:17:04,017 - INFO - Use pytorch device: cpu
+2023-09-02 23:17:09,325 - INFO - Bot response: Hello Ahmed, as an archaeologist, I'm sure you'll find the Egyptian Museum fascinating! Let's continue our tour.
+
+Our next stop is the Mummy from Usermontu's Coffin. This mummy dates back to the New Kingdom period and is believed to be the remains of a high-ranking official named Usermontu. The mummy is beautifully preserved and provides valuable insights into ancient Egyptian burial practices and beliefs about the afterlife.
+
+As we explore the museum, feel free to ask any questions or share any insights you may have as an archaeologist. I'm here to make your visit as informative and enjoyable as possible.
+2023-09-02 23:17:26,688 - INFO - User sent message: 
+2023-09-02 23:17:26,690 - INFO - 127.0.0.1 - - [02/Sep/2023 23:17:26] "POST /send HTTP/1.1" 200 -
+2023-09-02 23:17:26,709 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:17:26,900 - INFO - Use pytorch device: cpu
+2023-09-02 23:17:26,919 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-09-02 23:17:27,084 - INFO - Use pytorch device: cpu
+2023-09-02 23:17:29,088 - INFO - Bot response: Hello Ahmed! Welcome to the Egyptian Museum. I'm Alice, your tour guide for today. How can I assist you? Are there any specific artifacts or areas of the museum you would like to learn more about?
+2023-09-02 23:17:50,709 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:17:51,015 - INFO -  * Restarting with stat
+2023-09-02 23:17:52,611 - WARNING -  * Debugger is active!
+2023-09-02 23:17:52,618 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:17:59,778 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:18:00,055 - INFO -  * Restarting with stat
+2023-09-02 23:18:01,618 - WARNING -  * Debugger is active!
+2023-09-02 23:18:01,624 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:18:02,652 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:18:02,940 - INFO -  * Restarting with stat
+2023-09-02 23:18:04,502 - WARNING -  * Debugger is active!
+2023-09-02 23:18:04,509 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:18:24,989 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:18:25,295 - INFO -  * Restarting with stat
+2023-09-02 23:18:26,867 - WARNING -  * Debugger is active!
+2023-09-02 23:18:26,873 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:18:29,927 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:18:30,209 - INFO -  * Restarting with stat
+2023-09-02 23:18:31,846 - WARNING -  * Debugger is active!
+2023-09-02 23:18:31,852 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:18:46,140 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:18:46,419 - INFO -  * Restarting with stat
+2023-09-02 23:18:48,002 - WARNING -  * Debugger is active!
+2023-09-02 23:18:48,008 - INFO -  * Debugger PIN: 145-398-379
+2023-09-02 23:20:08,737 - INFO -  * Detected change in '/Users/dako22/git/oyiyi/Sheikah_Tower/app.py', reloading
+2023-09-02 23:20:09,054 - INFO -  * Restarting with stat
+2023-09-02 23:20:10,727 - WARNING -  * Debugger is active!
+2023-09-02 23:20:10,733 - INFO -  * Debugger PIN: 145-398-379
