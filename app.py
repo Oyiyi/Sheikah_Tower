@@ -14,8 +14,6 @@ def run_chat_api(user_message):
     bot_response = chatapi.chat_api(user_message)
     messages.append(('Bot', bot_response))
     logging.info(f'Bot response: {bot_response}')
-    print(messages)
-    chat()
 
 @app.route('/')
 def chat():
