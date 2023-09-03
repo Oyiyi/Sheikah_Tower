@@ -1,4 +1,4 @@
-﻿""" 
+""" 
 Steps:
   a sample embeddings dataset in .csv that was indexed
   mechanism that converted the new input into embeddings quickly
@@ -30,13 +30,14 @@ user_IP_address = '10.100.0.4'
 locationManager = LocationManager(user_IP_address, log_file_path, db_location_file_path)
 event = locationManager.fetch_nearby_locations()
 
-# @Qi live information to present by UI
-user_live_coor = f"User now at: {event['user_live_coor']}"
-nearby_locations = f"{list(event.keys())[2]}: {event[list(event.keys())[2]]}" # 3rd key is 'nearby_locations within 500'
-
-# check to delete
-print(user_live_coor)
-print(nearby_locations)
+def loc_api():
+    # @Qi live information to present by UI
+    user_live_coor = f"User now at: {event['user_live_coor']}"
+    nearby_locations = f"{list(event.keys())[2]}: {event[list(event.keys())[2]]}" # 3rd key is 'nearby_locations within 500'
+    # check to delete
+    print(user_live_coor)
+    print(nearby_locations)
+    return user_live_coor, nearby_locations
 
 def chat_api(user_input):
     found_db_texts = search_db(user_input, 'db/exhibit-info-ebds.csv', 'db/exhibit-info.csv')
@@ -47,6 +48,7 @@ def chat_api(user_input):
     return output
 
 if __name__ == '__main__':
+
   while True:
       user_input = input("\n\nUser: ")
       output = chat_api(user_input)
