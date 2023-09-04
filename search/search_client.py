@@ -19,6 +19,6 @@ def search_db(user_input, db_ebds_csv_path, db_text_csv_path): # todo add path h
 
     # pull database's information as text
     db_texts_csv_path = db_text_csv_path
-    db_texts = pd.read_csv(db_texts_csv_path, header=None, encoding='iso-8859-1')
+    db_texts = pd.read_csv(db_texts_csv_path, header=0)
     found_db_texts = db_texts.iloc[[hits[0][i]['corpus_id'] for i in range(len(hits[0]))]]
     return found_db_texts
