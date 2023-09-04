@@ -1,4 +1,4 @@
-﻿# todo to make a function so that to call this function for both database and user search
+# todo to make a function so that to call this function for both database and user search
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 

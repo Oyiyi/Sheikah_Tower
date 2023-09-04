@@ -1,17 +1,9 @@
-﻿#below imports in main.py already
-import openai
-#openai.api_key = OPENAI_API_KEY
-
-# todo Don't start as the museum guide as there are use cases outside of the museum
-# todo check the order of the flow. Also seems like the assistant repeats the same information. Level-of-freedom
+﻿import openai
 
 class Conversation:
     def __init__(self):
-        # Historical message storage for the entire conversation todo can't keep adding messages, but how to fix it? Maybe summarize every 5 messages?
-        # Main prompt here
-        self.messages = [{"role": "system", "content": "Act as a tour guide in an Egyptian museum. Your name is Alice."},{"role": "assistant", "content": "Hi I'm Alice, your tour guide today! Ready to explore?"}]
-        #print("\n\nVIP Guide: Hi I'm Alice, your tour guide today! Ready to explore?'")
-
+        self.messages = [{"role": "system", "content": "Be a helpful assitant and language interpreter for Monoco."},{"role": "assistant", "content": "Hi Link!"}]
+        #print("\n\n\
     def call_api(self):
         # text + user inputs as inputs of calling LLM APIs
         response = openai.ChatCompletion.create(
@@ -28,16 +20,23 @@ class Conversation:
         return message
         # TODO: Add logic to calculate tokens used and speed
    
-    def rolling_convo(self, user_input, found_db_texts=None, found_db_user_data=None):
+    def rolling_convo(self, user_input, found_db_texts, found_db_user_data):
         self.messages.append({"role": "user", "content": user_input})
-
-        if found_db_texts is not None:
+        vec_info =''
+        if found_db_texts:
             self.messages.append({"role": "system", "content": f"Some helpful knowledge: {found_db_texts}"})
+            vec_info = f'\n<p style="color: red;">found loc info: {found_db_texts}</p>'
 
-        if found_db_user_data is not None:
+        if found_db_user_data:
             self.messages.append({"role": "system", "content": f"Something you know about the user: {found_db_user_data}"})
-
+            vec_info = f'\n<p style="color: red;">found user info: {found_db_user_data}</p>'
+        #for message in self.messages:
+        #    print(message)
+        #return self.messages
+    
         chat_response = self.call_api() # use new added user_input to call API again
-        #print(f"\n\nVIP Guide: {chat_response}")
+        print(f"\n\nVIP Guide: {chat_response}")
         self.messages.append({"role": "assistant", "content": chat_response}) #['system', 'assistant', 'user', 'function']
-        return chat_response
+        print(type(chat_response),chat_response)
+        
+        return chat_response + vec_info
