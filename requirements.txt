@@ -9,3 +9,6 @@ json
 requests
 time
 math
+eventlet
+flask
+flask_socketio
