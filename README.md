@@ -3,6 +3,8 @@
 <h3> 👨🏻‍💻 About Us and this Project </h3>
 We are driven by a humble desire to explore the immense potential of MEC and edge computing for Large Language Models Applications. We are building an ecosystem. We aim to provide the necessary infrastructure while leveraging the advantages of MEC. This involves optimizing data consumption, enhancing security and privacy, addressing the challenges between cloud, edge, and end-users, and achieving improved redundancy and resilience. We're also leveraging the wealth of additional information offered by MEC and synergizing it with large language models to enhance the overall user experience.
 
+This project and its proposed framework won the finalist of OCP AI Hackthon in 2024.
+
 <h3> 🛠 Tech Stack </h3>
 HW/SW co-design diagrams:
 
